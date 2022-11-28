@@ -97,6 +97,7 @@ header h1 {
     border: none;
     flex: 1;
     font-size: 1.6rem;
+    width: 36rem;
 }
 .formulario input[type="submit"] {
     background-color: #1048a4;
@@ -108,13 +109,14 @@ header h1 {
     font-weight: 900;
     text-transform: uppercase;
     font-size: 1.9rem;
-    width: 100%;
+    width: 90%;
     transition: background-color 300ms ease;
+    
 }
 @media (min-width: 768px) {
     .formulario input[type="submit"] {
         display: block;
-        padding: 1rem 5rem;
+        padding: 1rem 4rem;
     }
 }
 .formulario input[type="submit"]:hover {
@@ -123,6 +125,7 @@ header h1 {
 }
 
 .formulario select {
+    width: 36rem;
     flex: 1;
     padding: 1rem;
     border: none;
@@ -149,7 +152,7 @@ header h1 {
 }
 
 .contenedor {
-    width: 90%;
+    width: 80%;
     max-width: 80rem;
     margin: 0 auto;
 }
@@ -238,7 +241,8 @@ main {
 .filtros .campo {
     display: flex;
     align-items: center;
-    gap: 2rem;
+    width: 4rem;
+    
 }
 .filtros label {
     font-size: 3rem;
