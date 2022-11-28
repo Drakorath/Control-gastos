@@ -82,9 +82,9 @@ header h1 {
   margin-bottom: 2rem;
 }
 .formulario .campo1 {
-    display: grid;
-    margin-bottom: 1rem;
-  }
+  display: grid;
+  margin-bottom: 1rem;
+}
 .formulario label {
   color: var(--azul);
   font-size: 2.8rem;
@@ -134,6 +134,41 @@ header h1 {
   border-radius: 1rem;
   text-align: center;
   background-color: var(--gris-claro);
+}
+.formulario1 {
+  width: 95%;
+  margin: 0 auto;
+  padding: 10rem 0;
+}
+@media (min-width: 768px) {
+  .formulario {
+    padding: 5rem 0;
+    width: 60rem;
+  }
+}
+.formulario1 legend {
+  font-size: 3.6rem;
+  text-align: center;
+  display: block;
+  text-transform: uppercase;
+  color: var(--blanco);
+  margin-bottom: 4rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid var(--azul);
+}
+.formulario1 .campo {
+  display: grid;
+  margin-bottom: 2rem;
+}
+.formulario1 .campo1 {
+  display: grid;
+  margin-bottom: 1rem;
+}
+.formulario1 label {
+  color: var(--azul);
+  font-size: 2.8rem;
+  text-align: center;
+  margin-bottom: 2rem;
 }
 .formulario1 input[type="text"],
 .formulario1 input[type="number"] {
